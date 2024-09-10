@@ -1,0 +1,36 @@
+@font-face {
+    font-family: Avatar;
+    src: url("Outfit-VariableFont_wght.ttf");
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: medium;
+    font-family: Avatar;
+}
+.box {
+    background-color: hsl(0, 0%, 100%);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#qr-code {
+    margin: 10px 0px 0px 0px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+h3{
+    font-weight: 700;
+    margin: 20px 10px 10px 10px;
+}
+
+p{
+    font-weight: lighter;
+    margin: 0px 10px 30px 10px;
+}
